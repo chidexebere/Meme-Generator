@@ -1,0 +1,62 @@
+.meme-form {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.meme-form input {
+  margin: 1rem;
+  padding: 3px;
+}
+
+.meme-form button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.meme .top {
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+
+.meme .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+/*# sourceMappingURL=memeGenerator.css.map */
