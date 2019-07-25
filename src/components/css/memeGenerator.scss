@@ -1,0 +1,68 @@
+$tablet: 700px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
+
+$desktop: 1024px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+.meme-form {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    margin: 1rem;
+    padding: 3px;
+  }
+
+  button {
+    //width: 10rem;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+}
+
+.meme {
+  //width: 100vw;
+  position: relative;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  align-items: center;
+
+  .top {
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+  }
+}

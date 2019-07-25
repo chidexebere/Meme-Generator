@@ -1,0 +1,20 @@
+header {
+  padding: 1rem;
+  //width: 100vw;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  background-color: brown;
+  justify-content: center;
+
+  img {
+    height: 80%;
+    margin-left: 10%;
+  }
+
+  p {
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+}
